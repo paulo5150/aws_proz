@@ -1,0 +1,27 @@
+# **9 Princípios básicos do web design responsivo**
+
+## 1-Design Responsivo X Adaptativo:
+	O conteúdo decide.
+## 2-O Fluxo (Flow X Static):
+	Quando a tela do dispositivo diminui o tamanho o
+	o conteúdo é 'empurrado' pra baixo.
+## 3-Unidades Relativas:
+	Unidades flexíveis baseadas em percentual.
+## 4-Pontos de Interrupção:
+	O layout muda de 3 colunas no desktop para uma no 		
+	mobile
+## 5-Valores mínimos e valores máximos:
+	Uma largura de 100% com máxima largura de 1000px, 
+	preenche toda a tela e não ultrapassa determinada marca
+## 6-Objetos Aninhados:
+	Muito úteis para aqueles conteúdos que não quer manter
+	em escala, como logos e botões
+## 7-Desktop ou Mobile - Qual vem Primeiro?:
+	O design decide o que vai funcionar melhor levando em consideração as limitações das telas menores.
+## 8-Fontes Web ou Fontes do sistema:
+	Fontes web são mais futuristas, mas precisam carregar. 
+	Fontes do sistema são mais rápidas, mas caso o usuário 
+	não tenha determinada fonte, será usada a fonte padrão
+## 9-Imagens Bitmap X Vetores:
+	Precisa de efeitos arrojados? Bitmap. Vetores são mais 
+	dinâmicos em relação a mudança de escala.

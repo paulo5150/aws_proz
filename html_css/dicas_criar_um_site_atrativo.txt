@@ -1,0 +1,24 @@
+Tipos de design para sites:
+- Flat de design;
+- Skeumorfismo;
+- Design Metro;
+- Design de Grade;
+- Design Responsivo;
+- Design Clássico;
+- Design Criativo;
+- DEsign One Page.
+
+1-Hierarquia das informações: Categorias, subcategorias, tamanho de fontes, etc
+2-Espaçamento Adequado;
+3-Estudo das fontes: Jamais se deve utilizar mais de 2 tipos de fontes diferentes,
+	uma deve ser usada para chamadas e títulos e a outra para textos.
+4-Estilo de Imagem: Evitar excesso de informação. Padronização de tamanho, tonalidade e 
+	estilo de enquadramento dão consistência ao site e criam uma identidade.
+
+Considerações necessárias ao escolher um layout
+
+1-Considere o objetivo do site
+2-Foque no conteúdo
+3-O layout deve refletir a personalidade da empresa
+4-Lembre-se do público alvo de seu site
+5-Lembre-se d0 acesso por celular

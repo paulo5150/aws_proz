@@ -19,18 +19,18 @@ const arrayPostagens = [
   },
 ]
 
-//Paulo Lima, Beatriz, Anthony Max
+//Paulo Lima, Beatriz, Anthony Max, Edson Dias
 const novoPost = document.createElement('article');
 
 novoPost.id = "post-2"
 novoPost.innerHTML = 
-`<h3>Make Hommus. Not War</h3>
+`<h3>${arrayPostagens[1].titulo}</h3>
 
-<p class="subtitulo">Só delivery, para curtir em casa!</p>
+<p class="subtitulo">${arrayPostagens[1].subtitulo}</p>
 
-<div class="data">18/08/2022</div>
+<div class="data">${arrayPostagens[1].data}</div>
 
-<p>Neste restaurante não só pode, como é encorajado comer o antepasto como prato principal. Recomendamos os kibes e a kafta bonina.</p>
+<p>${arrayPostagens[1].texto}</p>
 
 `
 

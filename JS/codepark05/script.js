@@ -1,7 +1,7 @@
 let h1Titulo = document.querySelector('#titulo');
-let aLink = document.querySelector("a")
-let listaNaoOrdenada = document.querySelector("ul")
-let listaOrdenada = document.querySelector("#lista-ordenada")
+let aLink = document.querySelector("a");
+let listaNaoOrdenada = document.querySelector("ul");
+let listaOrdenada = document.querySelector("#lista-ordenada");
 
 h1Titulo.innerText = "Modelo H1";
 aLink.innerText = "Proz Educação";

@@ -18,22 +18,17 @@ const arrayPostagens = [
     texto: "Todos conhecemos e amamos um bom churrasco, mas o que você acha de experimentar um churrasco focado em frutos do mar? Nós gostamos, experimente e nos conte o que você achou!"
   },
 ]
-
 //Paulo Lima, Beatriz, Anthony Max, Edson Dias
-const novoPost = document.createElement('article');
 
-novoPost.id = "post-2"
-novoPost.innerHTML = 
-`<h3>${arrayPostagens[1].titulo}</h3>
-
-<p class="subtitulo">${arrayPostagens[1].subtitulo}</p>
-
-<div class="data">${arrayPostagens[1].data}</div>
-
-<p>${arrayPostagens[1].texto}</p>
-
-`
-
-const mainElement = document.querySelector('main');
-
-mainElement.appendChild(novoPost);
+//novoPost.id = "post-2"
+for(let i =0; i < arrayPostagens.length; i++){
+  const novoPost = document.createElement('article');
+  novoPost.innerHTML = 
+  `<h3>${arrayPostagens[i].titulo}</h3>
+  <p class="subtitulo">${arrayPostagens[i].subtitulo}</p>
+  <div class="data">${arrayPostagens[i].data}</div>
+  <p>${arrayPostagens[i].texto}</p>
+  `
+  const mainElement = document.querySelector('main');
+  mainElement.appendChild(novoPost);
+}

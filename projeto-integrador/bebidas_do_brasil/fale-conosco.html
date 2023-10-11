@@ -8,10 +8,8 @@
     <body>
         <header>
             <div>
-                
                 <nav>
-                    <a href="./index.html">
-                        <img src="./src/img/logo/bebidas_do_brasil_black.png" 
+                    <a href="./index.html"><img src="./src/img/logo/bebidas_do_brasil_black.png" 
                         alt="Bebidas_do_Brasil">
                     </a>
                     <ul>
@@ -35,31 +33,26 @@
             </div>
         </header>
         <main>
-            <section>
-                <img src="./src/img/imagens_correlatas/barrels-4859918_1280.jpg" 
-                alt="corredor_de_barris">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tenetur voluptas 
-                    voluptatibus asperiores veritatis, hic a quasi, quibusdam rem earum ea neque aut
-                    nulla facilis odio deserunt tempora dolorem corrupti.
-                </p>
-            </section>
-            <section>
-                <img src="./src/img/imagens_correlatas/hop-vines-7415073_1280.jpg" 
-                alt="Lúpulo">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel laborum quod ipsam, 
-                    illum a laudantium ratione ipsa deserunt repudiandae voluptatibus iure vitae ipsum 
-                    repellat mollitia eaque aperiam natus. Qui, nobis?
-                </p>
-            </section>
-            <section>
-                <h3>Nossa Equipe</h3>
+            <div>
+                <h2>Fale Conosco</h2>
+                <span>Envie seus dados e receba a nossa newsletter com promoções e novidades.</span>
                 <div>
-                    <img src="" alt="">
-                    <h4>Nome</h4>
+                    <label for="nome-fale-conosco">Nome:</label>
+                    <input type="text" name="nome-fale-conosco" id="nome-fale-conosco">
                 </div>
-            </section>
+                <div>
+                    <label for="email-fale-conosco">E-mail:</label>
+                    <input type="email" name="email-fale-conosco" id="email-fale-conosco">
+                </div>
+                <div>
+                    <label for="mensagem-fale-conosco">Mensagem:</label>
+                    <input type="text" name="mensagem-fale-conosco" id="mensagem-fale-conosco">
+                </div>
+                <div>
+                    <button id="cancelar-fale-conosco">Cancelar</button>
+                    <button type="submit" id="enviar-fale-conosco">Enviar</button>
+                </div>
+            </div>
         </main>
         <footer>
             <ul>
@@ -74,6 +67,7 @@
                 </li>
             </ul>
             <span>Bebidas do Brasil - CNPJ:012.345.678/0001-00</span>
-        </footer> 
+        </footer>
+        
     </body>
 </html>

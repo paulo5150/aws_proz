@@ -8,10 +8,8 @@
     <body>
         <header>
             <div>
-                
                 <nav>
-                    <a href="./index.html">
-                        <img src="./src/img/logo/bebidas_do_brasil_black.png" 
+                    <a href="./index.html"><img src="./src/img/logo/bebidas_do_brasil_black.png" 
                         alt="Bebidas_do_Brasil">
                     </a>
                     <ul>
@@ -35,31 +33,38 @@
             </div>
         </header>
         <main>
-            <section>
-                <img src="./src/img/imagens_correlatas/barrels-4859918_1280.jpg" 
-                alt="corredor_de_barris">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tenetur voluptas 
-                    voluptatibus asperiores veritatis, hic a quasi, quibusdam rem earum ea neque aut
-                    nulla facilis odio deserunt tempora dolorem corrupti.
-                </p>
-            </section>
-            <section>
-                <img src="./src/img/imagens_correlatas/hop-vines-7415073_1280.jpg" 
-                alt="Lúpulo">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel laborum quod ipsam, 
-                    illum a laudantium ratione ipsa deserunt repudiandae voluptatibus iure vitae ipsum 
-                    repellat mollitia eaque aperiam natus. Qui, nobis?
-                </p>
-            </section>
-            <section>
-                <h3>Nossa Equipe</h3>
+            <div>
+                <h2>Cadastre-se</h2>
+                <span>Informe seus dados:</span>
                 <div>
-                    <img src="" alt="">
-                    <h4>Nome</h4>
+                    <label for="nome-cadastro">Nome:</label>
+                    <input type="text" name="nome-cadastro" id="nome-cadastro">
                 </div>
-            </section>
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div>
+                    <label for="email-cadastro">E-mail:</label>
+                    <input type="email" name="email-cadastro" id="email-cadastro">
+                </div>
+                <div>
+                    <label for="endereco-cadastro">Endereço:</label>
+                    <input type="text" name="endereco-cadastro" id="endereco-cadastro">
+                </div>
+                <div>
+                    <label for="cidade-cadastro">Cidade:</label>
+                    <input type="text" name="cidade-cadastro" id="cidade-cadastro">
+                </div>
+                <div>
+                    <label for="cep">CEP:</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+                <div>
+                    <button id="cancelar-cadastro">Cancelar</button>
+                    <button type="submit" id="enviar-cadastro">Enviar</button>
+                </div>
+            </div>
         </main>
         <footer>
             <ul>
@@ -74,6 +79,7 @@
                 </li>
             </ul>
             <span>Bebidas do Brasil - CNPJ:012.345.678/0001-00</span>
-        </footer> 
+        </footer>
+        
     </body>
 </html>

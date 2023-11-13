@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercícios addEventListener</title>
+</head>
+<body>
+    <button id="btn">Botão 1</button>
+    <button id="btn2">Botão 2</button>
+    <script>
+        let teste = function () {
+            console.log("Olá Mundo!");
+        }
+
+        let remocao = function () {
+            //document.getElementById("btn").removeEventListener("click", teste);
+            //document.getElementById("btn").addEventListener("mouseover", teste);
+        }
+        document.getElementById("btn").addEventListener("mouseover", teste);
+        //document.getElementById("btn2").addEventListener("click", remocao);
+    </script>
+</body>
+</html>

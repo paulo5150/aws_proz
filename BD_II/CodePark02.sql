@@ -100,13 +100,14 @@ insert into pedido(id_item)
 insert into pedido(id_item)
 	value (4);
  
-DELIMITER$$ 
+DELIMITER//
 create TRIGGER acrescenta_pedido 
 on cliente
 AFTER INSERT ON pedido
 for EACH ROW
 begin
-    if new.id_pedido
-       	UPDATE cliente set qtde_pedidos += 1
-	end if;    
-end$$
+  	UPDATE cliente 
+    set qtde_pedidos += 1
+	where ID_PEDIDO = NEW.cpf;  
+end;
+//

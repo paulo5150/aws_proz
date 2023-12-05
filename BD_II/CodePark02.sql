@@ -107,7 +107,6 @@ AFTER INSERT ON pedido
 for EACH ROW
 begin
     if new.id_pedido
-       	INSERT into cliente(qtde_pedidos) 
-       	VALUES (qtde_pedidos+1)
+       	UPDATE cliente set qtde_pedidos += 1
 	end if;    
 end$$
